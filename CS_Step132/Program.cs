@@ -50,9 +50,9 @@ namespace CS_Step132
             stringList.Add("pariatur. Excepteur sint occaecat cupidatat non proident, sunt in");
             stringList.Add("culpa qui officia deserunt mollit anim id est laborum.");
 
-            Console.WriteLine("Enter a final = number between 0 and 6:");
+            Console.WriteLine("Enter a final number between 0 and 6:");
             int number3 = Convert.ToInt32(Console.ReadLine());
-            if (0 > number || number > 6)
+            if (0 > number3 || number3 > 6)
             {
                 Console.WriteLine("Try again. Please close the program and retry.");
                 Console.ReadLine();
